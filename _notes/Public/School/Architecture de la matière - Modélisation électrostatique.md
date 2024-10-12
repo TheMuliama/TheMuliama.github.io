@@ -4,11 +4,16 @@ feed: hide
 date: 08-10-2024
 ---
 ## Interactions intermoléculaires
-### Répartition des charges électrique dans la matière
-**Les ions**
+Savoir décrire l’interaction charge/charge
+Savoir décrire l’interaction charge/dipôle
+Savoir décrire l’interaction dipôle/dipôle
+Savoir décrire l’interaction de VdW de type Keesom
+Savoir décrire l’interaction de VdW de type Debye
+Savoir décrire l’interaction de VdW de type London
+## Solvants et dilution
 
-**Les liaisons covalentes polarisées**
+## Conduction électrique d'un solvant
 
-### Modélisation électrostatique
-#### Interactions électrostatiques
-- loi de coulomb (à connaître)
+## Utilisations des solvants
+
+
