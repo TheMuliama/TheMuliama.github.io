@@ -18,9 +18,13 @@ Before you acquire any new item ask yourself the following questions:
 
 ### Everyday
 Items that should always stay with me.
+`(Comming soon)`
 ### Household
 Items that are always in my house(?)
+`(Comming soon)`
 ### Tools
 Items that I use frequently.
+`(Comming soon)`
 ### Clothing and accessories
 Items that compose my outfits and participate to my appearance. 
+`(Comming soon)`

@@ -9,7 +9,7 @@ feed:
 
 Cette page contient l'essentiels des outils de calculs métrologiques utiles à l'ingénieurs. 
 
-- [[Public/School/Métrologie - Incertitude]]
+- [[Métrologie - Incertitude]]
 - [[Public/School/Métrologie - Régression linéaire]]
 - [[Public/School/Métrologie - Unités du système international]]
 

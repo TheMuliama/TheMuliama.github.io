@@ -3,7 +3,7 @@ title: Architecture de la matière - Attendus (CPI1MQ)
 feed: hide
 date: 11-10-2024
 ---
-> `Last modified: 11-10-2024`
+> Last modified: 11-10-2024
 
 Savoir définir les termes élément, nucléides et isotopes
 Savoir définir l’abondance isotopique

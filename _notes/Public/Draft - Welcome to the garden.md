@@ -3,7 +3,7 @@ title: Draft - Welcome to the garden
 feed: hide
 date: 15-04-2021
 ---
-> This note is a draft of my [homepage](https://themuliama.github.io/index.html) | `Last modified: 10-10-2024`
+> This note is a draft of my [homepage](https://themuliama.github.io/index.html) | Last modified: 10-10-2024
 
 
 ## Welcome to my garden.
@@ -14,11 +14,10 @@ If you are interested in my activities, you can see [[What am I up to]]. You can
 
 I write about what I found interesting and what I want to understand. I hope that this place will bring you no harm. Maybe will this site help you? 
 
-## Home portal
+## Index
 
-### Knowledge
+### [[Knowledge]]
 *A personal project database*.
-`(Comming soon)`
 
 ### Projects
 *A portfolio containing a list of selected project done*
@@ -32,9 +31,9 @@ I write about what I found interesting and what I want to understand. I hope tha
 *Information on me and this website*
 `(Comming soon)`
 
-### Journal
-*Tracking update and progress on various projects and events*
-`(Comming soon)`
+### [Journal](https://muliamadiaries.bearblog.dev/)
+*A place to articulate my thoughts and to give updates* (Outgoing link)
+
 
 ## A thanks note
 
