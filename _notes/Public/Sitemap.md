@@ -2,12 +2,13 @@
 title: Sitemap
 feed: show
 date: 11-10-2024
+permalink: \Sitemap
 ---
 A list of the pages of this site.
 
-- Index 
-	- About `(Comming soon)`
-		- Personal `(Comming soon)`
+- [Index](https://themuliama.github.io/index.html)
+	- [[About]] 
+		- [[Personal]] 
 		- This website `(Comming soon)`
 	- Directory `(Comming soon)`
 		- Bookmark `(Comming soon)`
