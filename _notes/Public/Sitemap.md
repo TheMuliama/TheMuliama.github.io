@@ -10,7 +10,7 @@ A list of the pages of this site.
 	- [[About]] 
 		- [[Personal]] 
 		- This website `(Comming soon)`
-	- Directory `(Comming soon)`
+	- [[Directory]] 
 		- Bookmark `(Comming soon)`
 		- [[Inventory]] 
 		- Reading `(Comming soon)`
@@ -18,16 +18,15 @@ A list of the pages of this site.
 		- Watching `(Comming soon)`
 	- [[Knowledge]] 
 		- Theory `(Comming soon)`
-		- Practice `(Comming soon)`
+		- [[Practice]]
 		- Wisdom `(Comming soon)`
 		- Education `(Comming soon)`
-	- Projects `(Comming soon)`
-		- Interactive `(Comming soon)`
+	- [[Markdown Rendered]]
+	- [[Projects]]
 		- Visual art `(Comming soon)`
 		- Development `(Comming soon)`
 		- Workshop `(Comming soon)`
-- [[Markdown Rendered]]
-- [[Sitemap]]
+	- [[Sitemap]]
 
 
 

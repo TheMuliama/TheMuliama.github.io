@@ -12,8 +12,8 @@ Year 2023 was really traumatic to me. I started to go to college, a lot happened
 
 I am now an engineering student. I created my website and a blog. 
 
-## Now
-`(Comming soon)`
+## [Now](https://muliamadiaries.bearblog.dev/now-page/)
+*To know what I am currently doing at this point of my life.*
 
 ## Beliefs
 `(Comming soon)`

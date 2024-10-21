@@ -4,9 +4,12 @@ feed: show
 date : 01-02-2021
 ---
  
-This page contains a quick reference to all markdown properties. 90% of this was part of the [Simple Jekyll](https://github.com/raghuveerdotnet/simply-jekyll) theme, which we forked to built this one. Great job, makers!
+This page contains a quick reference to all markdown properties.
 
-By the way, how did you reach this page?  
+>[!note] Note to self
+>- The [[Markdown Rendered#Math expressions|math expressions]] don't work on web site! Jekyll don't use same math engine as Obsidian :/
+>- YOU CAN MAKE USE HTML!!! (That mean iframes :3)
+
 
 * TOC
 {:toc}
@@ -227,11 +230,11 @@ But let's throw in a <b>tag</b>.
 ### Math expressions
 ---
 
-You can write math expressions using the $$\LateX$$ [markup language](https://en.wikipedia.org/wiki/LaTeX) between double dollar signs : \$$...$$. They can be written inline or as a single block.
+You can write math expressions using the $\LaTeX$ [markup language](https://en.wikipedia.org/wiki/LaTeX) between double dollar signs : \$$...$$. They can be written inline or as a single block.
 
 For example,
 
-\$$P(A|B) = \frac{P(B | A)\cdot P(A)}{P(B)}$$ will render as :
+`$$P(A|B) = \frac{P(B | A)\cdot P(A)}{P(B)}$$` will render as :
 
 $$P(A|B) = \frac{P(B | A)\cdot P(A)}{P(B)}$$
 
@@ -275,10 +278,10 @@ There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| *Still*  | `renders` | **nicely** |
+| 1        | 2         | 3          |
 
 {:#blockquotes}
 ### Blockquotes

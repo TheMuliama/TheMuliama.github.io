@@ -7,8 +7,7 @@ date: 13-10-2024
 `(Comming soon)`
  *A collection of things I've learned during my explorations and my studies.*
 
-## Practice
-`(Comming soon)`
+## [[Practice]]
 *Notes to help with the application.*
 
 ## Wisdom
