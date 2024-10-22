@@ -5,11 +5,11 @@ date: 16-10-2024
 ---
 # Archive of selected works and ongoing projects.
 ## Visual art 
-`(Comming soon)`
+`(Coming soon)`
 *Creating pretty things (or really ugly ones).*
 ## Development 
-`(Comming soon)`
+`(Coming soon)`
 *Gettin' nerdy.*
 ## Workshop 
-`(Comming soon)`
+`(Coming soon)`
 *Crafting cool things.*

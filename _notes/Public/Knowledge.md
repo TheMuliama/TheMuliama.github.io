@@ -4,16 +4,16 @@ feed: hide
 date: 13-10-2024
 ---
 ## Theory
-`(Comming soon)`
+`(Coming soon)`
  *A collection of things I've learned during my explorations and my studies.*
 
 ## [[Practice]]
 *Notes to help with the application.*
 
 ## Wisdom
-`(Comming soon)`
+`(Coming soon)`
 *Collection of stories, blessings and other wisdom.*
 
 ## Education
-`(Comming soon)`
-*Courses, notions and definitions from my academical studies.*
+`(Coming soon)`
+*Courses, notions and definitions from my academical studies.* 

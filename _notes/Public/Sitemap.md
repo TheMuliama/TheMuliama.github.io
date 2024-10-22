@@ -9,23 +9,23 @@ A list of the pages of this site.
 - [Index](https://themuliama.github.io/index.html)
 	- [[About]] 
 		- [[Personal]] 
-		- This website `(Comming soon)`
+		- Meta `(Coming soon)`
 	- [[Directory]] 
-		- Bookmark `(Comming soon)`
+		- Bookmark `(Coming soon)`
 		- [[Inventory]] 
-		- Reading `(Comming soon)`
-		- Playing `(Comming soon)`
-		- Watching `(Comming soon)`
+		- Reading `(Coming soon)`
+		- Playing `(Coming soon)`
+		- Watching `(Coming soon)`
 	- [[Knowledge]] 
-		- Theory `(Comming soon)`
+		- Theory `(Coming soon)`
 		- [[Practice]]
-		- Wisdom `(Comming soon)`
-		- Education `(Comming soon)`
+		- Wisdom `(Coming soon)`
+		- Education `(Coming soon)`
 	- [[Markdown Rendered]]
 	- [[Projects]]
-		- Visual art `(Comming soon)`
-		- Development `(Comming soon)`
-		- Workshop `(Comming soon)`
+		- Visual art `(Coming soon)`
+		- Development `(Coming soon)`
+		- Workshop `(Coming soon)`
 	- [[Sitemap]]
 
 

@@ -9,17 +9,17 @@ List of things
 *Items I possess.*
 
 ## Reading
-`(comming soon)`
+`(coming soon)`
 *Books I find important (or not).*
 
 ## Watching
-`(comming soon)`
+`(coming soon)`
 *Some moving media.*
 
 ## Playing
-`(comming soon)`
+`(coming soon)`
 *Funny games I like.*
 
 ## Bookmarks
-`(comming soon)`
+`(coming soon)`
 *Collections of things on the internet.*

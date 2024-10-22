@@ -16,22 +16,22 @@ I am now an engineering student. I created my website and a blog.
 *To know what I am currently doing at this point of my life.*
 
 ## Beliefs
-`(Comming soon)`
+`(Coming soon)`
 
 ## Values
-`(Comming soon)`
+`(Coming soon)`
 
 ## Needs
-`(Comming soon)`
+`(Coming soon)`
 
 ## Goals
-`(Comming soon)`
+`(Coming soon)`
 
 ## Routine
-`(Comming soon)`
+`(Coming soon)`
 
 ## [[Time left]]
 *My life is finite, and I need to not forgot this fact.*
 
 ## Life Rules
-`(Comming soon)`
+`(Coming soon)`
