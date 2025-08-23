@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <meta charset="UTF-8">
+    <title>Muliama's Garden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+<body>
+    <header>
+        <h1>Muliama's Garden</h1>
+    </header>
+    <main>
+        <h1>[[CCNA - ITN - Module 2 notes]]</h1>
+<h2>2.0 Introdutions</h2>
+<p>In you networking career, you might have to set up a new network or maintain and upgrade an existing one. In either case, you’ll configure switches and end devices so that they are working like you want them to.</p>
+<p>In this module, you will learn how to access Cisco IOS network devices. You will learn basic configuration commands and use them to configure and verify a Cisco IOS device and an end device with an IP address.</p>
+<h3>What will I learn to do in this module?</h3>
+<p><strong>Module Title:</strong> Basic Switch and End Device Configuration</p>
+<p><strong>Module Objective:</strong> Implement initial settings including passwords, IP addressing, and default gateway parameters on a network switch and end devices.</p>
+<table>
+<thead>
+<tr>
+<th>Topic Title</th>
+<th>Topic Objective</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cisco IOS Access</strong></td>
+<td>Explain how to access a Cisco IOS device for configuration purposes.</td>
+</tr>
+<tr>
+<td><strong>IOS Navigation</strong></td>
+<td>Explain how to navigate Cisco IOS to configure network devices.</td>
+</tr>
+<tr>
+<td><strong>The Command Structure</strong></td>
+<td>Describe the command structure of Cisco IOS software.</td>
+</tr>
+<tr>
+<td><strong>Basic Device Configuration</strong></td>
+<td>Configure a Cisco IOS device using CLI.</td>
+</tr>
+<tr>
+<td><strong>Save Configurations</strong></td>
+<td>Use IOS commands to save the running configuration.</td>
+</tr>
+<tr>
+<td><strong>Ports and Addresses</strong></td>
+<td>Explain how devices communicate across network media.</td>
+</tr>
+<tr>
+<td><strong>Configure IP Addressing</strong></td>
+<td>Configure a host device with an IP address.</td>
+</tr>
+<tr>
+<td><strong>Verify Connectivity</strong></td>
+<td>Verify connectivity between two end devices.</td>
+</tr>
+</tbody>
+</table>
+<h2>2.1 Cisco IOS Access</h2>
+<h3>Operating systems</h3>
+<p>An Operating system (OS) has ==two portions: the Shell and the Kernel==.
+The ==Shell interact with the user==.
+The ==Kernel interact directly with the Hardware of the device==.</p>
+<p>It's possible for the user to interact with a ==Command Line Interface (CLI)== or a ==Graphical User Interface (GUI)==.</p>
+<p>GUI is more user-friendly than CLI. ==CLI can let you do things impossible to do through GUI==.
+GUI can fail, crash or simply not work. CLI is far more stable but require to know the commands you want to use.</p>
+<p>Network OS use a CLI because it's important for it to be stable and to act as specified.</p>
+<h3>Access Methods</h3>
+<p>All device should be configured and secured. In order to do that there is multiple way to access a network device.</p>
+<p>==Out-of-band access==: ==access via a special port== that make device accessible even ==with no network connection==.</p>
+<p><strong>Console</strong>
+Physical port to access Cisco Device. Out-of-band access useful for first configuration. To access device you need a computer with a terminal emulation software and a console cable.
+<strong>Secure Shell (SSH)</strong>
+In-band acess and recommended method for remonte CLI connection. Require active networking services. Provide secure encrypted protection.
+<strong>Telnet</strong>
+Like SSH but without secure encrypted protection. Should only be used in lab environnement.</p>
+<h2>2.2 IOS Navigation</h2>
+<h3>Primary Command Modes</h3>
+<p><strong>User Exec mode:</strong></p>
+<ul>
+<li>Allow access to a limited number of basic monitoring commands</li>
+<li>Often called &quot;View-only&quot; mode</li>
+<li>Default device prompt:</li>
+</ul>
+<pre><code>Switch&gt; 
+Router&gt; 
+</code></pre>
+<p><strong>Privileged EXEC mode:</strong></p>
+<ul>
+<li>Allow access to all command and features</li>
+<li>Allow monitoring command, execute configuration and management commands</li>
+<li>Default device prompt:</li>
+</ul>
+<pre><code>Switch#
+Router#
+</code></pre>
+<h3>Configuration Mode and Subconfiguration Modes</h3>
+<p>Global configuration mode is the mode to configure the device. From this mode we can access other specific config mode.</p>
+<p>Two common subconfig mode are:</p>
+<ul>
+<li>Line configuration mode - To configure console, SSH, Telnet, or AUX access.</li>
+<li>Interface Configuration Mode - To configure a switch port or router network interface.</li>
+</ul>
+<p>It's possible to identify which mode we are in with the command line prompt. A list of possible prompt for a Switch:</p>
+<ul>
+<li><code>Switch(config)#</code> : global config mode</li>
+<li><code>Switch(config-line)#</code> : Line configuration mode</li>
+<li><code>Switch(config-if)#</code> : Interface Configuration Mode</li>
+</ul>
+<h3>Navigate Between IOS Modes</h3>
+<p>enable: move from user EXEC mode to privileged EXEC mode
+disable: move from privileged EXEC mode to user EXEC mode</p>
+<p>configure terminal: move in global config mode
+exit: to go back a configuration mode</p>
+<p>line {management type line} {number}: to enter a line sub-configuration mode
+interface {management type interface} {number}: to enter a interface sub-configuration mode</p>
+<p>end: to go from any subconfig mode to privileged EXEC mode</p>
+<h2>2.3 The Command Structure</h2>
+<h3>Basic IOS Command Structure</h3>
+<p>![[Pasted image 20250703152346.png]]</p>
+<ul>
+<li>Keyword - This is a specific parameter defined in the operating system (in the figure, ip protocols).</li>
+<li>Argument - This is not predefined; it is a value or variable defined by the user (in the figure, 192.168.10.5).</li>
+</ul>
+<h3>IOS Command Syntax Check</h3>
+<p>A command sometimes require keywords or arguments. To know what to we need to refer to the syntax.</p>
+<p>Syntax give the format that must be used with a command.</p>
+<table>
+<thead>
+<tr>
+<th>Convention</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>boldface</strong></td>
+<td>Indicate command and keywords that you enter literally as shown.</td>
+</tr>
+<tr>
+<td><em>italics</em></td>
+<td>Indicate arguments for which you enter values.</td>
+</tr>
+<tr>
+<td>[x]</td>
+<td>Optional element (keywords or arguments).</td>
+</tr>
+<tr>
+<td>{x}</td>
+<td>Required element (keywords or arguments).</td>
+</tr>
+<tr>
+<td>[x {y | z}]</td>
+<td>Braces and vertical lines within square braquets indicate a required choice within an optional element. Spaces are used to clearly identify parts of the command.</td>
+</tr>
+<tr>
+<td>--------------------------------</td>
+<td></td>
+</tr>
+<tr>
+<td>The following examples demonstrate conventions used to document and use IOS commands:</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>ping</strong> <em>ip-address</em> - The command is <strong>ping</strong> and the user-defined argument is the <em>ip-address</em> of the destination device. For example, <strong>ping 10.10.10.5</strong>.</li>
+<li><strong>traceroute</strong> <em>ip-address</em> - The command is <strong>traceroute</strong> and the user-defined argument is the <em>ip-address</em> of the destination device. For example, <strong>traceroute 192.168.254.254</strong>.</li>
+</ul>
+<h3>IOS help Features</h3>
+<p>The IOS has two forms of help available: context-sensitive help and command syntax check.</p>
+<p>Context-sensitive help enables you to quickly find answers to these questions:</p>
+<ul>
+<li>Which commands are available in each command mode?</li>
+<li>Which commands start with specific characters or group of characters?</li>
+<li>Which arguments and keywords are available to particular commands?</li>
+</ul>
+<p>To access context-sensitive help, simply enter a question mark, <code>?</code>, at the CLI.</p>
+<p>Command syntax check verifies that a valid command was entered by the user. If the interpreter cannot understand the command being entered, it will provide feedback describing what is wrong with the command.</p>
+
+    </main>
+
+</body>
+    
+</html>
